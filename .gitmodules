@@ -1,0 +1,4 @@
+[submodule "stramosk/public"]
+	path = stramosk/public
+	url = https://github.com/stramosk/stramosk.github.io.git
+	branch = main
