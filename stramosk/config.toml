@@ -1,0 +1,4 @@
+baseURL = 'https://stramosk.com/'
+languageCode = 'en-us'
+title = "Stramosk's Site"
+theme = "PaperMod"
