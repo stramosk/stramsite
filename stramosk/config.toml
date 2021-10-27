@@ -22,21 +22,21 @@ defaultTheme = "dark"
   imageHeight = 120
   imageTitle = "it's a me"
 
-    [[params.profileMode.buttons]]
-    name = "Posts"
-    url = "posts"
+    #[[params.profileMode.buttons]]
+    #name = "Posts"
+    #url = "posts"
 
-    [[params.profileMode.buttons]]
-    name = "Tags"
-    url = "tags"
+    #[[params.profileMode.buttons]]
+    #name = "Tags"
+    #url = "tags"
 
   [params.homeInfoParams]
   Title = "Hi there 👋"
   Content = "Welcome to my blog"
 
   [[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/"
+  name = "instagram"
+  url = "https://www.instagram.com/vstramosk/"
 
   [[params.socialIcons]]
   name = "stackoverflow"
@@ -51,14 +51,14 @@ defaultTheme = "dark"
   hiddenInList = true
   hiddenInSingle = true
 
-[[menu.main]]
-identifier = "categories"
-name = "categories"
-url = "/categories/"
-weight = 10
+#[[menu.main]]
+#identifier = "categories"
+#name = "categories"
+#url = "/categories/"
+#weight = 10
 
-[[menu.main]]
-identifier = "tags"
-name = "tags"
-url = "/tags/"
-weight = 20
+#[[menu.main]]
+#identifier = "tags"
+#name = "tags"
+#url = "/tags/"
+#weight = 20
