@@ -1,4 +1,64 @@
 baseURL = 'https://stramosk.com/'
 languageCode = 'en-us'
-title = "Stramosk's Site"
+title = "stramosk's"
 theme = "PaperMod"
+enableRobotsTXT = true
+
+[params]
+env = "production"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+defaultTheme = "dark"
+
+  [params.profileMode]
+  enabled = true
+  title = "Vinicius Stramosk"
+  subtitle = "experienced coffee drinker"
+  imageUrl = "/profile1.jpg"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "it's a me"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Hi there 👋"
+  Content = "Welcome to my blog"
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/"
+
+  [[params.socialIcons]]
+  name = "stackoverflow"
+  url = "https://stackoverflow.com/users/4656591/vinicius-stramosk"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/stramosk/"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+[[menu.main]]
+identifier = "categories"
+name = "categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
